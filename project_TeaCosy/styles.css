@@ -1,0 +1,193 @@
+html {
+    scroll-padding-top: 75px; /* Adjust this to match the height of your header */
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: seashell;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 69px; /* Set height to 69px as per the spec */
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center; /* Vertically centers items within the navbar */
+    justify-content: space-between; /* Spaces out the logo and nav items */
+    height: 100%; /* Ensure navbar fills the header's height */
+    padding: 0 10px; /* Optional: Adds some padding for better spacing */
+}
+
+.navbar img {
+    height: 50px; /* Set the logo height */
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+.navbar a {
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 69px; /* Vertically center the text within the 69px height */
+}
+
+.mission {
+    padding-top: 100px; /* Space below the fixed header */
+    text-align: center;
+    color: antiquewhite;
+}
+body {
+    font-family: helvetica, arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    z-index: 10;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center; /* Vertically centers items within the navbar */
+    justify-content: space-between; /* Spaces out the logo and nav items */
+    height: 100%; /* Ensure navbar fills the header's height */
+    padding: 0 10px; /* Optional: Adds some padding for better spacing */
+}
+.navbar img {
+    height: 50px;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.mission {
+    height: 700px;
+    background-image: url(resources/images/img-mission-background.webp);
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    align-items: center;
+    flex-shrink: 1;
+    
+}
+
+.mission div {
+    background-color: black;
+    width: 100%;
+}
+
+.featured-tea {
+    max-width: 1000px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.selection-title {
+    text-align: center;
+}
+
+.selection-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.selection-photos img {
+    height: 200px;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+.selection-photos h4 {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.locations-banner {
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack the h2 and .locations-cards vertically */
+    max-width: 1200px;
+    height: 500px;
+    background-image: url(resources/images/img-locations-background.webp);
+    justify-content: flex-start; /* Start aligning from the top */
+    align-items: center; /* Center child elements horizontally */
+    flex-wrap: wrap; /* Allow wrapping of child elements if necessary */
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.locations-banner h2 {
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 0; */ /* Not necessary, handled by padding */
+    padding-bottom: 15px; /* Space between h2 and .locations-cards */
+}
+
+.locations-cards {
+    display: flex; /* Enable Flexbox */
+    justify-content: space-around; /* Distribute cards evenly */
+    align-items: center; /* Center the cards vertically */
+    width: 100%;
+    flex-wrap: wrap; /* Allow the cards to wrap if needed */
+    /* margin-top: 0; */ /* Not needed if there’s no extra margin */
+    /* padding-top: 0; */ /* Not needed if there’s no extra padding */
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: flex; /* Enable Flexbox for the card */
+    flex-direction: column; /* Stack content inside card vertically */
+    justify-content: center; /* Center content vertically within the card */
+    align-items: center; /* Center content horizontally within the card */
+    text-align: center; /* Center the text inside each card */
+    margin: 10px; /* Adds spacing between cards */
+}
+
+.footer-contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright {
+    margin-left: 20px;
+    display: flex;
+}
