@@ -15,7 +15,14 @@ The Tea Cosy is a simple static website built using HTML and CSS. The project de
 - Menu section displaying various teas
 - Contact section with information about the tea room
 
+  ## Technologies Used
+
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling and layout.
+
 ## How to View the Project
 
 You can view the project by opening the `index.html` file in your web browser.
+
+
 
